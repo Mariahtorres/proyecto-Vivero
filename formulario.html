@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto - Vivero Aires Nativos</title>
+    <link rel="stylesheet" href="./style3.css">
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+        <h1>Vivero Aire Nativo - Plantas Nativas de Bs. As.</h1>
+        <nav>
+            <ul>
+                <li class="lista" ><a href="./index.html" class="ancla1">Inicio</a></li>
+                 <li class="lista"><a href="./index.html#prod" class="ancla1">Productos</a></li>
+                 <li class="lista" ><a href="./index.html#compra" class="ancla1">¿Como comprar?</a></li>
+                 <li class="lista"> <a href="https://maps.app.goo.gl/W1d7ncL2x3BCMHPx7" class="ancla1" target="_blank">Ubicacion</a></li>
+                 <li class="lista"> <a href="./formulario.html" class="ancla1">Contacto</a></li>
+           </ul>
+        </nav>        
+        </div>
+        <img src="./img/cortadera.png" alt="planta cortadera" id="cortadera">
+       
+    </header>
+    <main >
+        <h2>Formulario de Contacto</h2>
+        <form id="form" action="">
+            <fieldset>
+            <label for="nombre">Nombre y Apellido</label><Input type="text" id="nombre">
+            <label for="tel">Teléfono</label><input type="text" id="tel">
+            <label for="email">Email</label><input type="email" id="email">
+        </fieldset>
+        <fieldset>
+            <label for="localidad">Localidad</label><input type="text" id="localidad">
+            <label for="CP">Código Postal</label><input type="text" id="CP">
+        </fieldset>
+        <fieldset>
+            <label for="medios">Medio preferido de contacto</label>
+           <select name="medios" id="medios">
+            <option value="opción">Elija una opción</option>
+            <option value="tel">Llamada telefónica</option>
+            <option value="email">Email</option>
+            <option value="whatsapp">Whatsapp</option>
+           </select>
+           <label for="horario">Horario preferido de contacto</label>
+           <select name="horario" id="horario">
+           <option value="opcion">Elija una opción</option>
+           <option value="mañana">Mañana (8 a 12 hs)</option>
+           <option value="tarde">Tarde (12 a 16 hs)</option>
+           <option value="noche">Noche (16 a 20 hs)</option>
+           </select>
+        </fieldset>
+        <fieldset>
+           <label for="comentario">Sugerencias y comentarios</label><textarea name="comentario" id="comentario" maxlength="600"></textarea>
+        </fieldset>
+           <button type="submit" id="enviar">Enviar</button>
+    </form>
+
+
+
+
+
+    </main>
+    <footer>
+        <section class="horario">
+            <h4>HORARIO</h4>
+            <ul class="list">
+                <li><p class="parraf">Lunes a viernes de 8 a 18hs</p></li>
+                <li><p class="parraf">Sábados de 8 a 16 hs</p></li>
+            </ul>            
+            
+            <div>
+                <img src="./img/face.jpg" alt="logotipo-facebook" class="logo medios">
+                <img src="./img/camara.jpg" alt="logotipo-Camara" class="logos medios">
+            </div>
+        </section>
+
+        <div class="horario">
+            <h4 id="mediosContacto">CONTACTO</h4>
+            <ul class="list">
+                <li> <img src="./img/logo-telefono.jpg" alt="logotipo-telefono" class="logos"><p  class="parraf">Teléfono: 221-4962204</p></li>
+                <li> <img src="./img/logo-whatsapp.jpg" alt="logotipo-whatsapp" class="logos">
+                <p  class="parraf">Whatsapp: 221-584-3456</p></li>
+                <li> <img src="./img/logo-mail.jpg" alt="logotipo-mail" class="logos">
+                <p  class="parraf">Mail: airenativo@gmail.com</p></li>
+                <li><a href="https://maps.app.goo.gl/bLc92XMW1Djag8HE7" target="_blank"><img src="./img/logoubicacion.jpg" alt="logotipo-ubicacion" class="logos"></a>
+                <p  class="parraf">La Plata Calle 206 y 86</p></li>
+            </ul>
+        </div>
+    </footer>
+   
+
+    
+    
+</body>
+</html>
